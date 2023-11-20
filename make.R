@@ -27,6 +27,6 @@ devtools::load_all(here::here())
 
 ## Run Project ----
 source("analyses/download-data.R")
-
+#tructruc
 # List all R scripts in a sequential order and using the following form:
 # source(here::here("analyses", "script_X.R"))
