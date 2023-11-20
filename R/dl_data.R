@@ -12,7 +12,7 @@ dl_data <- function(repo_url, database, file_name){
   
   dir_path = file.path("data", database)
   dir.create(path = dir_path, recursive = TRUE, showWarnings = FALSE)
-  data_url <- paste0(repo_url, database, file_name)
+  data_url <- paste0(repo_url, database, "/", file_name, sep='')
   
   if (httr::http_error(data_url)){
     "Unable to reach the website"
