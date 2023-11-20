@@ -4,17 +4,17 @@
 \alias{dl_data}
 \title{Download the 4 dataset to run chouetteprojet}
 \usage{
-dl_data(data_url, database, file_name)
+dl_data(repo_url, database, file_name)
 }
 \arguments{
-\item{data_url}{A character string (or a vector of character strings): the url(s)
-where data can be found.}
-
 \item{database}{A character string (or a vector of character strings): the database(s)
 where data is stored.}
 
 \item{file_name}{A character string (or a vector of character strings): the name(s)
 of the destination file(s) for the data that is downloaded.}
+
+\item{data_url}{A character string (or a vector of character strings): the url(s)
+where data can be found.}
 }
 \value{
 No return value.
