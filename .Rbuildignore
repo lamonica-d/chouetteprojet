@@ -5,3 +5,5 @@
 ^figures$
 ^outputs$
 ^make\.R$
+^.*\.Rproj$
+^\.Rproj\.user$
